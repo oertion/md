@@ -147,6 +147,19 @@ conda env create -f environment.yml -n 새이름
 conda env update -f environment.yml --prune
 ```
 
+환경 삭제하기:
+
+```bash
+conda deactivate
+conda env remove -n lstm_env
+```
+
+환경 리스트:
+
+```bash
+conda env list
+```
+
 ---
 
 ## 8단계: 코드 에디터 설정 (VS Code 권장)
