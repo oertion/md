@@ -128,6 +128,8 @@ lstm-project/
 └── environment.yml     # 환경 정의 파일
 ```
 
+## 8단계: 환경 내보내기/가져오기/삭제하기
+
 환경 내보내기:
 
 ```bash
@@ -162,7 +164,7 @@ conda env list
 
 ---
 
-## 8단계: 코드 에디터 설정 (VS Code 권장)
+## 9단계: 코드 에디터 설정 (VS Code 권장)
 
 1. https://code.visualstudio.com 에 접속해 파란색 'Download for Windows' 버튼을 클릭해 설치 파일(.exe)을 받습니다.
 2. 다운로드된 .exe 파일을 실행합니다. 사용 라이선스 동의 후, 경로는 기본값 그대로 진행하면 됩니다.
