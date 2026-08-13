@@ -139,13 +139,13 @@ conda env export > environment.yml
 환경 가져오기:
 
 ```bash
-[동일한 이름]
+#동일한 이름
 conda env create -f environment.yml
 
-[새이름으로 생성]
+#새이름으로 생성
 conda env create -f environment.yml -n 새이름
 
-[갱신]
+#갱신
 conda env update -f environment.yml --prune
 ```
 
